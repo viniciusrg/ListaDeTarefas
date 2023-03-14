@@ -1,0 +1,15 @@
+.card{
+    background-color: #ddd;
+    width: 350px;
+    height: 150px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card .acoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
