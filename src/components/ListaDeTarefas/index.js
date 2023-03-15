@@ -1,11 +1,11 @@
 import Cards from '../Cards';
 import styles from './listadetarefas.module.css';
 
-function ListaDeTarefas() {
+function ListaDeTarefas({tarefas, setTarefas}) {
     return (
         <div className={styles.listaDeTarefas}>
             <h1>Lista de tarefas</h1>
-            <Cards />
+            <Cards tarefas={tarefas} setTarefas={setTarefas} />
         </div>
     )
 }
